@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.QuizZTimeTest" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.QuizZTimeTest" parent="Base.Theme.QuizZTimeTest" />
+
+
+    <style name="texti" parent="Widget.AppCompat.TextView"
+
+        >
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:textSize">28sp</item>
+
+    </style>
+</resources>

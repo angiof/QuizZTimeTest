@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizZTimeTest</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="domanda">Domanda</string>
+    <string name="inserisci_un_numero_da_1_a_4">Inserisci un numero da 1 a 4</string>
+    <string name="rispondi">Rispondi</string>
+
+
+    <string name="your_score">Your Score: %1$d</string>
+    <string name="total_quizzes_taken">Total Quizzes Taken: %1$d</string>
+    <string name="retry_quiz">Retry Quiz</string>
+    <string name="your_score_0">Your Score: 0</string>
+    <string name="total_quizzes_taken_0">Total Quizzes Taken: 0</string>
+    <string name="make_quiz">make quiz</string>
+    <string name="last_score">"Last Score : "</string>
+</resources>
