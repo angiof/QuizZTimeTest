@@ -10,9 +10,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.FragmentResultBinding
-import com.h2appi.quizztimetest.utils.Utils.LAST_SCORE
-import com.h2appi.quizztimetest.utils.Utils.QUIZ_DATA
-import com.h2appi.quizztimetest.utils.Utils.TOTAL_QUIZZES
+import com.test_1.quizztimetest.utils.Utils.LAST_SCORE
+import com.test_1.quizztimetest.utils.Utils.QUIZ_DATA
+import com.test_1.quizztimetest.utils.Utils.TOTAL_QUIZZES
 import com.h2appi.quizztimetest.views.QuizViewModel
 
 class ResultFragment : Fragment() {

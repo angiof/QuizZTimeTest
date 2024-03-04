@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.FragmentQuizBinding
-import com.h2appi.quizztimetest.utils.Utils
+import com.test_1.quizztimetest.utils.Utils
 import com.h2appi.quizztimetest.views.QuizViewModel
 import java.util.Locale
 

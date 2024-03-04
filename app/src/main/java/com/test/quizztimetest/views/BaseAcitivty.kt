@@ -1,23 +1,16 @@
 package com.test.quizztimetest.views
 
-import android.content.Context
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.util.AttributeSet
 import android.view.Gravity
-import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavInflater
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.BaseLayoutBinding
-import com.h2appi.quizztimetest.utils.Utils
-import com.h2appi.quizztimetest.utils.Utils.clearQuizData
+import com.test_1.quizztimetest.utils.Utils.clearQuizData
 import com.skydoves.powermenu.MenuAnimation
 import com.skydoves.powermenu.OnMenuItemClickListener
 import com.skydoves.powermenu.PowerMenu
