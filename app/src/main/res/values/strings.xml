@@ -2,7 +2,7 @@
     <string name="app_name">QuizZTimeTest</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="domanda">Domanda</string>
-    <string name="inserisci_un_numero_da_1_a_4">Inserisci un numero da 1 a 4</string>
+    <string name="inserisci_un_numero_da_1_a_4">Inserisci risposta</string>
     <string name="rispondi">Rispondi</string>
 
 

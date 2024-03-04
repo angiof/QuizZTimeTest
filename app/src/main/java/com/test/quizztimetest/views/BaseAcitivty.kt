@@ -10,11 +10,14 @@ import androidx.navigation.NavInflater
 import androidx.navigation.fragment.NavHostFragment
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.BaseLayoutBinding
-import com.test_1.quizztimetest.utils.Utils.clearQuizData
+import com.test.quizztimetest.views.utils.Utils.clearQuizData
 import com.skydoves.powermenu.MenuAnimation
 import com.skydoves.powermenu.OnMenuItemClickListener
 import com.skydoves.powermenu.PowerMenu
 import com.skydoves.powermenu.PowerMenuItem
+import com.test.quizztimetest.views.utils.Utils.CLEAR_AND_RESET
+import com.test.quizztimetest.views.utils.Utils.CLOSE
+import com.test.quizztimetest.views.utils.Utils.RESET_QUIZ
 
 abstract class BaseActivity : AppCompatActivity() {
     abstract var binding: BaseLayoutBinding
@@ -64,9 +67,9 @@ abstract class BaseActivity : AppCompatActivity() {
         }
 
         val lista = listOf(
-            PowerMenuItem("Close", false),
-            PowerMenuItem("Reset Quiz ", false),
-            PowerMenuItem("Clear Data And Reset Quiz ", false)
+            PowerMenuItem(CLOSE, false),
+            PowerMenuItem(RESET_QUIZ, false),
+            PowerMenuItem(CLEAR_AND_RESET, false)
         )
 
         powerMenu = PowerMenu.Builder(this)

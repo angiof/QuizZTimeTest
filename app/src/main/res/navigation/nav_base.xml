@@ -8,17 +8,17 @@
 
     <fragment
         android:id="@+id/quizFragment"
-        android:name="com.test_1.quizztimetest.views.QuizFragment"
+        android:name="com.test.quizztimetest.views.views.QuizFragment"
         android:label="fragment_quiz"
         tools:layout="@layout/fragment_quiz" />
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.test_1.quizztimetest.views.ResultFragment"
+        android:name="com.test.quizztimetest.views.views.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" />
     <fragment
         android:id="@+id/homeQuizFragment"
-        android:name="com.test_1.quizztimetest.views.HomeQuizFragment"
+        android:name="com.test.quizztimetest.views.views.HomeQuizFragment"
         android:label="fragment_home_quiz"
         tools:layout="@layout/fragment_home_quiz" />
 </navigation>

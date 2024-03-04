@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.test_1.quizztimetest.views.QuizFragment">
+    tools:context="com.test.quizztimetest.views.views.QuizFragment">
 
     <TextView
         android:id="@+id/questionTextView"
@@ -32,6 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:height="1dp"
+        android:textColorHint="@color/white"
+        android:maxLength="1"
+        android:textColorHighlight="@color/white"
         android:hint="@string/inserisci_un_numero_da_1_a_4"
         android:inputType="text" />
 

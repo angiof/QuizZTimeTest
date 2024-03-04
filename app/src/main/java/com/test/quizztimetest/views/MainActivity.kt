@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.navigation.NavGraph
 import com.h2appi.quizztimetest.databinding.BaseLayoutBinding
-import com.test_1.quizztimetest.utils.Utils.hideStatusBar
+import com.test.quizztimetest.views.utils.Utils.hideStatusBar
 
 
 class MainActivity() : BaseActivity() {
@@ -23,7 +23,7 @@ class MainActivity() : BaseActivity() {
     }
 
 
-    fun fb() {
+     fun fb() {
         binding.fbM.setOnClickListener {
             navHostFragment.navController
                 .navigate(com.h2appi.quizztimetest.R.id.homeQuizFragment)

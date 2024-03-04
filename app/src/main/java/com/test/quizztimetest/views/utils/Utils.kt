@@ -1,4 +1,4 @@
-package com.test_1.quizztimetest.utils
+package com.test.quizztimetest.views.utils
 
 import android.app.Activity
 import android.content.Context
@@ -7,9 +7,14 @@ import com.h2appi.quizztimetest.views.Question
 
 object Utils {
 
-    const val  QUIZ_DATA ="QuizData"
-    const val  LAST_SCORE ="LastScore"
-    const val  TOTAL_QUIZZES ="TotalQuizzes"
+    const val QUIZ_DATA = "QuizData"
+    const val LAST_SCORE = "LastScore"
+    const val TOTAL_QUIZZES = "TotalQuizzes"
+
+    //params menu
+    const val CLOSE = "Close"
+    const val RESET_QUIZ = "Reset Quiz "
+    const val CLEAR_AND_RESET = "Clear Data And Reset Quiz "
 
 
     fun Context.saveQuizData(score: Int) {
@@ -38,8 +43,9 @@ object Utils {
         Question("What is 3 + 3?", listOf("a = 5", "b = 6", "c = 7"), "b")
     )
 
-    fun Activity.hideStatusBar(){
+    fun Activity.hideStatusBar() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.test_1.quizztimetest.views
+package com.test.quizztimetest.views.views
 
 import android.content.Context
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.FragmentHomeQuizBinding
-import com.test_1.quizztimetest.utils.Utils.LAST_SCORE
-import com.test_1.quizztimetest.utils.Utils.QUIZ_DATA
+import com.test.quizztimetest.views.utils.Utils.LAST_SCORE
+import com.test.quizztimetest.views.utils.Utils.QUIZ_DATA
 import com.test.quizztimetest.views.MainActivity
 
 

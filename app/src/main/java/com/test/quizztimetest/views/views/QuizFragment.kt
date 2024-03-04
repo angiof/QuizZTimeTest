@@ -1,4 +1,4 @@
-package com.test_1.quizztimetest.views
+package com.test.quizztimetest.views.views
 
 import android.os.Bundle
 import android.util.Log
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.h2appi.quizztimetest.R
 import com.h2appi.quizztimetest.databinding.FragmentQuizBinding
-import com.test_1.quizztimetest.utils.Utils
+import com.test.quizztimetest.views.utils.Utils
 import com.h2appi.quizztimetest.views.QuizViewModel
 import java.util.Locale
 
